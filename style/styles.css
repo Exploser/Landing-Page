@@ -165,3 +165,27 @@ nav {
         font-weight: bolder;
     }
 }
+
+.calltoaction{
+    padding: 3vw;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    .prompt{
+        min-width: 70vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3vw;
+        background-color: #3882f6;
+        align-items: center;
+         button{
+            padding: 1vw;
+            border: 2px solid #f9faf8;
+            border-radius: 10px;
+            color: #f9faf8;
+            background-color: #3882f6;
+        }
+    }
+
+}
